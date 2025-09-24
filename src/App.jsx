@@ -5,6 +5,7 @@ import Products from './pages/Products';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import FloatingSocialIcons from './components/FloatingSocialIcons';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <FloatingSocialIcons />
+      <Footer />
     </Router>
   );
 }
