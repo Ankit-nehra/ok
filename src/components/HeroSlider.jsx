@@ -27,7 +27,7 @@ export default function HeroSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
-    }, 2000);
+    }, 4000); // changed to 4 seconds for better readability
     return () => clearInterval(interval);
   }, []);
 
@@ -40,12 +40,18 @@ export default function HeroSlider() {
             index === current ? 'opacity-100 z-10' : 'opacity-0 -z-10'
           }`}
         >
+          {/* Background Image */}
           <img
             src={slide.image}
             alt={slide.title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4 max-w-xl">
+
+          {/* 🔥 Dark Overlay */}
+          <div className="absolute inset-0 bg-black/50"></div>
+
+          {/* Slide Text */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4 max-w-xl z-20">
             <h1 className="text-4xl md:text-5xl font-extrabold drop-shadow-lg mb-4">
               {slide.title}
             </h1>
@@ -60,7 +66,7 @@ export default function HeroSlider() {
       ))}
 
       {/* Dots Navigation */}
-      <div className="absolute bottom-6 w-full flex justify-center gap-3">
+      <div className="absolute bottom-6 w-full flex justify-center gap-3 z-30">
         {slides.map((_, index) => (
           <button
             key={index}
