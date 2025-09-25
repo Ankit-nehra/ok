@@ -18,8 +18,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // For now just alert form data
-    alert(`Thank you, ${formData.name}! Your message has been received.`);
+
+    const { subject, message } = formData;
+
+    if (!subject.trim() || !message.trim()) {
+      alert("Please fill in both Subject and Message.");
+      return;
+    }
+
+    // Gmail compose link
+    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=ankitnehra7000@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+    // Open Gmail in new tab
+    window.open(mailtoLink, '_blank');
+
+    // Clear the form
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -70,6 +83,7 @@ const Contact = () => {
             placeholder="Subject"
             value={formData.subject}
             onChange={handleChange}
+            required
             className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-sky-400"
           />
           <textarea
