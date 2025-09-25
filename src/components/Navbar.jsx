@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
+import logo from '../../public/assets/logo10.png'; // adjust path if needed
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,9 +12,13 @@ const Navbar = () => {
       <nav className="backdrop-blur-md bg-white/40 border-b border-white/30 shadow-sm px-4 md:px-12 py-3 flex justify-between items-center">
         
         {/* Logo */}
-        <Link to="/" className="text-2xl font-bold text-gray-800 tracking-wide">
-          TR<span className="text-sky-500"> ENTERPRISES</span>
-        </Link>
+<Link to="/" className="flex items-center">
+  <img
+    src={logo}
+    alt="TR Enterprises Logo"
+    className="h-10 w-auto object-contain"
+  />
+</Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-8 items-center text-gray-700 font-medium">
