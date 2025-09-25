@@ -1,0 +1,144 @@
+{
+  "Products": [
+    {
+      "name": "OGR Paper (Oil & Grease Proof)",
+      "description": "OGR paper is specially treated to resist the penetration of oil and grease, making it ideal for food packaging applications, such as fast food wrappers and disposable containers, ensuring your products stay fresh and appetizing.",
+      "image": "assets/paperAndBoard/OGR-paper.webp"
+    },
+    {
+      "name": "Machine-glazed Paper",
+      "description": "Machine-glazed paper offers a smooth surface, making it perfect for various printing applications. Its glossy finish enhances the visual appeal of packaging, labels, and promotional materials, creating a polished and professional look.",
+      "image": "assets/paperAndBoard/manila-paper.webp"
+    },
+    {
+      "name": "Bleached Kraft",
+      "description": "Bleached Kraft paper is known for its high-strength properties and exceptional durability. It is commonly used in packaging, shopping bags, and industrial applications, providing robust protection and a clean, bright appearance.",
+      "image": "assets/paperAndBoard/bleached-kraft-paper.webp"
+    },
+    {
+      "name": "Kraft Paper/Linner/Board",
+      "description": "Kraft paper, liner, and board products are versatile and eco-friendly. They find applications in packaging, crafting, and as liners for corrugated boxes, offering both strength and sustainability.",
+      "image": "assets/paperAndBoard/kraft-paper.webp"
+    },
+    {
+      "name": "White Kraft Liner",
+      "description": "White Kraft liner is a premium packaging material, prized for its clean and sophisticated appearance. It is often used in high-end product packaging, luxury shopping bags, and boxes, elevating the brand image.",
+      "image": "assets/paperAndBoard/white-kraft-liner.webp"
+    },
+    {
+      "name": "Art Paper/Chromo Paper/Wood Free",
+      "description": "These specialty papers are tailored for superior printability, making them ideal for advertising materials, brochures, catalogs, and magazines. They deliver vibrant, high-resolution images and text.",
+      "image": "assets/paperAndBoard/art-paper.webp"
+    },
+    {
+      "name": "Poly Coated Paper",
+      "description": "Poly-coated paper features a layer of polyethylene, providing resistance to moisture and making it suitable for products requiring moisture protection, such as disposable cups and plates.",
+      "image": "assets/paperAndBoard/poly-cup.webp"
+    },
+    {
+      "name": "Tetra-Pack",
+      "description": "Tetra-pack paper is designed specifically for creating the iconic Tetra Pak cartons used for packaging liquid and dairy products. Its unique composition ensures long shelf life and easy pouring.",
+      "image": "assets/paperAndBoard/tetra-pack.webp"
+    },
+    {
+      "name": "Thermal Paper",
+      "description": "Thermal Paper is a special fine paper coated with a chemical that changes color when exposed to heat, commonly used for receipts, labels, and tickets.",
+      "image": "assets/paperAndBoard/thermal-paper.webp"
+    },
+    {
+      "name": "Tracing Paper (Coloured & White)",
+      "description": "Tracing Paper is a translucent paper available in colored and white varieties, used primarily for architectural drawings, sketches, and artistic tracing purposes.",
+      "image": "assets/paperAndBoard/tracing-paper.webp"
+    },
+    {
+      "name": "Wax Paper",
+      "description": "Wax Paper is coated with a thin layer of wax, making it moisture-resistant and ideal for food packaging, baking, and wrapping.",
+      "image": "assets/paperAndBoard/wax-paper.webp"
+    },
+    {
+      "name": "Wet Strength Paper",
+      "description": "Wet Strength Paper is treated to maintain strength and durability even when wet, often used for packaging that requires moisture resistance.",
+      "image": "assets/paperAndBoard/wet-strength-paper.webp"
+    },
+    {
+      "name": "Tea Bag Paper",
+      "description": "Tea Bag Paper is a porous paper specially designed for use in tea bags, allowing water to infuse the tea leaves while containing them securely.",
+      "image": "assets/paperAndBoard/tea-bag-paper.webp"
+    },
+    {
+      "name": "Newsprint/LWC/White Printing",
+      "description": "These paper types cater to the publishing industry. Newsprint is economical and used for newspapers, while LWC (Lightweight Coated) and White Printing papers offer better print quality for magazines and catalogs.",
+      "image": "assets/paperAndBoard/newsprint.webp"
+    },
+    {
+      "name": "Non Woven (All Grades)",
+      "description": "Non-woven materials are used in a wide range of applications, from medical textiles to industrial wipes. Their versatility, strength, and non-fraying properties make them invaluable.",
+      "image": "assets/paperAndBoard/non-woven.webp"
+    },
+    {
+      "name": "Masking Tape Stock",
+      "description": "Masking Tape Stock is the base material used in manufacturing masking tapes, widely utilized for painting, labeling, and surface protection.",
+      "image": "assets/paperAndBoard/masking-tape-stock.webp"
+    },
+    {
+      "name": "Printed & Un-Printed Poly Cup Stock",
+      "description": "Poly cup stock is tailored for disposable cups, both for hot and cold beverages. It comes in printed and unprinted variations, allowing customization for branding.",
+      "image": "assets/paperAndBoard/printed-sbs.webp"
+    },
+    {
+      "name": "Silicon Coated Paper",
+      "description": "Silicon Coated Paper is coated with silicone to provide a non-stick surface, commonly used for release liners and specialty packaging.",
+      "image": "assets/paperAndBoard/silicon-coated-paper.webp"
+    },
+    {
+      "name": "Printed SBS",
+      "description": "Printed SBS is Solid Bleached Sulphate board with custom printing, used for premium packaging solutions that require both strength and visual appeal.",
+      "image": "assets/paperAndBoard/printed-sbs.webp"
+    },
+    {
+      "name": "Tissue Paper",
+      "description": "Tissue Paper is a lightweight, soft paper used for hygiene, wrapping, and decorative purposes.",
+      "image": "assets/paperAndBoard/tissue-paper.webp"
+    },
+    {
+      "name": "Silver Aluminium Paper",
+      "description": "Silver aluminum paper offers a metallic sheen and is frequently employed in packaging for chocolates, confectioneries, and specialty items, creating an eye-catching, elegant presentation.",
+      "image": "assets/paperAndBoard/silver-aluminium-paper.webp"
+    },
+    {
+      "name": "Leather Release Paper (PC)",
+      "description": "Leather release paper plays a crucial role in the production of synthetic leather and textiles. It ensures a smooth release during manufacturing processes, resulting in high-quality end products.",
+      "image": "assets/paperAndBoard/leather-release-paper.webp"
+    },
+    {
+      "name": "Book Paper/Bible Paper",
+      "description": "These specialized papers are engineered for book printing, offering durability, opacity, and the ideal texture for reading. Bible paper, in particular, is known for its thin yet strong properties.",
+      "image": "assets/paperAndBoard/book-paper.webp"
+    },
+    {
+      "name": "Heat Transfer Paper",
+      "description": "Heat Transfer Paper is specially designed for transferring printed designs onto textiles and other materials using heat and pressure.",
+      "image": "assets/paperAndBoard/heat-transfer-paper.webp"
+    },
+    {
+      "name": "Photo Paper",
+      "description": "Photo Paper is high-quality coated paper optimized for printing vibrant, detailed photographic images.",
+      "image": "assets/paperAndBoard/photo-paper.webp"
+    },
+    {
+      "name": "Filter Paper",
+      "description": "Filter Paper is a porous paper used for filtering liquids or air, commonly applied in laboratories and industrial processes.",
+      "image": "assets/paperAndBoard/filter-paper.webp"
+    },
+    {
+      "name": "Yogurt Paper",
+      "description": "Yogurt Paper is a specialized packaging paper used for sealing and packaging yogurt containers, ensuring freshness and hygiene.",
+      "image": "assets/paperAndBoard/yogurt-paper.webp"
+    },
+    {
+      "name": "Steel Mill Kraft (SMK)",
+      "description": "Steel Mill Kraft (SMK) is a heavy-duty kraft paper used for packaging and protecting steel products during transportation and storage.",
+      "image": "assets/paperAndBoard/steel-mill-kraft.webp"
+    }
+  ]
+}
